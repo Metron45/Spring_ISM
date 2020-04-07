@@ -3,8 +3,8 @@ package io.swagger.model;
 import java.util.Objects;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonRootName;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
-import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
+import com.fasterxml.jackson.annotation.JsonCreator;
+import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import org.springframework.validation.annotation.Validated;
 
@@ -13,51 +13,44 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
+// import javax.validation.Valid;
+import javax.validation.constraints.*;
 
 /**
  * User
  */
 @Validated
-@javax.annotation.Generated(
-		value = "io.swagger.codegen.v3.generators.java.SpringCodegen",
-		date = "2020-03-31T11:11:07.248176+02:00[Europe/Warsaw]"
-		)
+@javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2020-03-31T11:11:07.248176+02:00[Europe/Warsaw]")
+
 
 @Entity
 @Table(name = "Users")
-@JacksonXmlRootElement(localName = "User")
-@JsonRootName("User")
+@JsonRootName("user")
+
 public class User   {
-	
-  @Id
-  @GeneratedValue(strategy=GenerationType.IDENTITY)
-  @JsonProperty("id")
-  @JacksonXmlProperty(localName="id")
+  @JsonProperty("Id")
   private Integer id = null;
 
   @JsonProperty("name")
-  @JacksonXmlProperty(localName="name")
   private String name = null;
 
   @JsonProperty("surname")
-  @JacksonXmlProperty(localName="surname")
   private String surname = null;
 
   @JsonProperty("description")
-  @JacksonXmlProperty(localName="description")
   private String description = null;
 
   @JsonProperty("participantInfo")
-  @JacksonXmlProperty(localName="participantInfo")
   private String participantInfo = null;
 
   @JsonProperty("email")
-  @JacksonXmlProperty(localName="email")
   private String email = null;
 
   @JsonProperty("password")
-  @JacksonXmlProperty(localName="password")
   private String password = null;
+
+  @JsonProperty("image")
+  private Object image = null;
 
   public User id(Integer id) {
     this.id = id;
@@ -192,11 +185,31 @@ public class User   {
     this.password = password;
   }
 
+  public User image(Object image) {
+    this.image = image;
+    return this;
+  }
+
+  /**
+   * Get image
+   * @return image
+  **/
+  @ApiModelProperty(value = "")
+  
+    public Object getImage() {
+    return image;
+  }
+
+  public void setImage(Object image) {
+    this.image = image;
+  }
+
 
   @Override
   public boolean equals(java.lang.Object o) {
     if (this == o) {
-      return true;    }
+      return true;
+    }
     if (o == null || getClass() != o.getClass()) {
       return false;
     }
@@ -207,12 +220,13 @@ public class User   {
         Objects.equals(this.description, user.description) &&
         Objects.equals(this.participantInfo, user.participantInfo) &&
         Objects.equals(this.email, user.email) &&
-        Objects.equals(this.password, user.password);
+        Objects.equals(this.password, user.password) &&
+        Objects.equals(this.image, user.image);
   }
 
   @Override
   public int hashCode() {
-    return Objects.hash(id, name, surname, description, participantInfo, email, password);
+    return Objects.hash(id, name, surname, description, participantInfo, email, password, image);
   }
 
   @Override
@@ -227,6 +241,7 @@ public class User   {
     sb.append("    participantInfo: ").append(toIndentedString(participantInfo)).append("\n");
     sb.append("    email: ").append(toIndentedString(email)).append("\n");
     sb.append("    password: ").append(toIndentedString(password)).append("\n");
+    sb.append("    image: ").append(toIndentedString(image)).append("\n");
     sb.append("}");
     return sb.toString();
   }

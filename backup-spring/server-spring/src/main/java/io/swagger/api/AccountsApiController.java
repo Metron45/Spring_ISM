@@ -1,15 +1,9 @@
 package io.swagger.api;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-
-import io.swagger.model.User;
-import io.swagger.model.UserID;
 import io.swagger.annotations.*;
-import io.swagger.service.UserService;
-
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -31,9 +25,6 @@ import java.util.Map;
 @Controller
 public class AccountsApiController implements AccountsApi {
 
-	@Autowired
-	private UserService userService;
-	
     private static final Logger log = LoggerFactory.getLogger(AccountsApiController.class);
 
     private final ObjectMapper objectMapper;
@@ -49,10 +40,8 @@ public class AccountsApiController implements AccountsApi {
     public ResponseEntity<Object> accountsUserIDGet(@Min(1)@ApiParam(value = "The user ID.",required=true, allowableValues="") @PathVariable("UserID") Integer userID
 ) {
         String accept = request.getHeader("Accept");
-        User user;
         if (accept != null && accept.contains("application/json")) {
             try {
-            	user = userService.findUser(userID);
                 return new ResponseEntity<Object>(objectMapper.readValue("{ }", Object.class), HttpStatus.NOT_IMPLEMENTED);
             } catch (IOException e) {
                 log.error("Couldn't serialize response for content type application/json", e);
@@ -79,4 +68,3 @@ public class AccountsApiController implements AccountsApi {
     }
 
 }
-

@@ -5,16 +5,24 @@
  */
 package io.swagger.api;
 
-import io.swagger.model.User;
+import io.swagger.model.Register;
 import io.swagger.annotations.*;
 import org.springframework.http.ResponseEntity;
+import org.springframework.validation.annotation.Validated;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RequestPart;
+import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.bind.annotation.CookieValue;
 
 import javax.validation.Valid;
-
+import javax.validation.constraints.*;
+import java.util.List;
+import java.util.Map;
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2020-03-31T11:11:07.248176+02:00[Europe/Warsaw]")
 @Api(value = "User", description = "the register API")
 public interface RegisterApi {
@@ -32,7 +40,7 @@ public interface RegisterApi {
         method = RequestMethod.GET)
     ResponseEntity<Integer> registerPost(
     		@ApiParam(value = "User object needed to be added into system." ,required=true )
-    		@Valid @RequestBody User body
+    		@Valid @RequestBody Register body
     		);
 
 }
