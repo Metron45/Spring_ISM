@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import io.swagger.model.User;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Transactional
@@ -16,7 +17,6 @@ public class UserServiceImpl implements UserService {
 
 	@Override
 	public User addUser(User user) {
-		user.setId((int) userRepository.count()+1);
 		return userRepository.save(user);
 	}
 	
@@ -31,8 +31,25 @@ public class UserServiceImpl implements UserService {
 
 
 	@Override
-	public User loginUser(String email, String password) {
-		return userRepository.findUser(email, password);
+	public User loginUser(User user) {
+		List<User> userList;
+		//System.out.println("User to look for in DB:" + user.toString());
+		userList= userRepository.findAll();
+		for(User userOnList : userList) {
+			//System.out.println("User in DB:" + userOnList.toString());
+			if(userOnList.getEmail().equals(user.getEmail()) &&  userOnList.getPassword().equals(user.getPassword()) ) {
+				//System.out.println("User found:" + userOnList.toString());
+				return userOnList;
+			}
+		}
+		return null;
+	}
+
+	@Override
+	public User findById(Long id) {
+		Optional<User> user = userRepository.findById(Long.valueOf(id));
+		if(user.isPresent()) return user.get();
+		else return null;
 	}
 
 }

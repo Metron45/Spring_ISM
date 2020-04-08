@@ -36,18 +36,22 @@ public class RegisterApiController implements RegisterApi {
         this.request = request;
     }
 
-    public ResponseEntity<Integer> registerPost(
+    public ResponseEntity<Long> registerPost(
     		@ApiParam(value = "User object needed to be added into system." , required=true )
     		@Valid @RequestBody User body) 
     {
         String accept = request.getHeader("Accept");
-        int id = -1;
+        Long id = Long.valueOf(-1);
+        User user;
         if (accept != null && accept.contains("application/json")) {
             id = userService.addUser(body).getId();
-			return new ResponseEntity<Integer>(id, HttpStatus.OK);
+            System.out.println("User added:" + body.toString());
+            user = userService.findById(id);
+            System.out.println("User in Database:" + user.toString());
+			return new ResponseEntity<Long>(id, HttpStatus.OK);
         }
 
-        return new ResponseEntity<Integer>(HttpStatus.NOT_IMPLEMENTED);
+        return new ResponseEntity<Long>(HttpStatus.NOT_IMPLEMENTED);
 	}
 
 }

@@ -30,7 +30,7 @@ public interface RegisterApi {
         produces = { "*/*" }, 
         consumes = { "*/*" },
         method = RequestMethod.GET)
-    ResponseEntity<Integer> registerPost(
+    ResponseEntity<Long> registerPost(
     		@ApiParam(value = "User object needed to be added into system." ,required=true )
     		@Valid @RequestBody User body
     		);

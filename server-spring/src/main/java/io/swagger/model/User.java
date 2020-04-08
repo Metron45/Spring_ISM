@@ -33,7 +33,7 @@ public class User   {
   @GeneratedValue(strategy=GenerationType.IDENTITY)
   @JsonProperty("id")
   @JacksonXmlProperty(localName="id")
-  private Integer id = null;
+  private Long id = null;
 
   @JsonProperty("name")
   @JacksonXmlProperty(localName="name")
@@ -59,7 +59,7 @@ public class User   {
   @JacksonXmlProperty(localName="password")
   private String password = null;
 
-  public User id(Integer id) {
+  public User id(Long id) {
     this.id = id;
     return this;
   }
@@ -70,11 +70,11 @@ public class User   {
   **/
   @ApiModelProperty(value = "")
   
-    public Integer getId() {
+    public Long getId() {
     return id;
   }
 
-  public void setId(Integer id) {
+  public void setId(Long id) {
     this.id = id;
   }
 
