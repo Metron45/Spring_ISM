@@ -5,37 +5,61 @@
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
 <script src="script.js"></script>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div ng-hide="hidelogin">
-	<div class=login>
-	  <p>Email: 	<input type="text" ng-model="email"></p>
-	  <p>Password: 	<input type="text" ng-model="password"></p>
-	  
-	  <button ng-click="login()"> Login </button>
-	</div>
+<header class="top_panel">
+    <div class="top_panel">
+	Top Panel to be implemented alongside Navigation.
+    </div>
+</header>
+
+
+
+<div ng-hide="hidelogin" class=login>
+	<table>
+	  <tr> <th colspan="2">Login</th><tr>
+	  <tr>
+	  	<th>Email:</th> 		
+	  	<th><input type="text" ng-model="email"></th>
+	  </tr>
+	  <tr>
+	  	<th>Password:</th>
+	  	<th><input type="text" ng-model="password"></th>
+	  </tr>
+	  <tr>
+	  	<th></th>
+	  	<th><button ng-click="login()"> Login </button></th>
+	</table>
 	
-	<div class=register>
-	  <p>Email: 	<input type="text" ng-model="email"></p>
-	  <p>Password: 	<input type="text" ng-model="password"></p>
-	  <p>name: 		<input type="text" ng-model="name"></p>
-	  <p>surname: 	<input type="text" ng-model="surname"></p>
-	  
-	  <button ng-click="toAccount"> Register </button>
-	</div>
+	<table>
+	  <tr> <th colspan="2">Registration</th><tr>
+	  <tr><th>Email:</th> 		<th><input type="text" ng-model="email"></th></tr>
+	  <tr><th>Password:</th> 	<th><input type="text" ng-model="password"></th></tr>
+	  <tr><th>Name:</th> 		<th><input type="text" ng-model="name"></th></tr>
+	  <tr><th>Surname:</th> 	<th><input type="text" ng-model="surname"></th></tr>
+	  <tr><th></th>
+	  <th><button ng-click="register()"> Register </button></th>
+	  </tr>
+	</table>
 </div>
 
 
 <div ng-hide="hideAcc">
-  De:<p ng-bind="description"></p>
-  Em:<p ng-bind="email"></p>
-  Id:<p ng-bind="id"></p>
-  Na:<p ng-bind="name"></p>
-  PaIn:<p ng-bind="participantInfo"></p>
-  Pass:<p ng-bind="password"></p>
-  Surname<p ng-bind="surname"></p>
+<h2>Account Information:</h2>
+<table>
+	<tr><th>AccountId:</th> 		<th>{{id}}</th></tr>
+	<tr><th>Email:</th>				<th>{{email}}</th></tr>
+	<tr><th>Password:</th>			<th>{{password}}</th></tr>
+	<tr><th>Name:</th>				<th>{{name}}</th></tr>
+	<tr><th>Surname:</th>			<th>{{surname}}</th></tr>
+	<tr><th>Description:</th>		<th>{{description}}</th></tr>
+	<tr><th>Participant Info:</th>	<th>{{participantInfo}}</th></tr>
+</table>
+Desc. and PartInf. will be fillable in edit profile functionality. <br>
+Password won't be displayed after system security, is currently displayed for debug purposes.
 </div>
 
 </body>

@@ -1,0 +1,41 @@
+body {
+margin: 0;
+padding: 0;
+}
+
+table {
+	text-align: center;
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 40%;
+	margin: auto;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h2{
+	font-family: arial, sans-serif;
+	margin: auto;
+	text-align: center;
+}
+
+.top_panel{
+	margin-bottom: 10px;
+	background-color: grey;
+	padding: 5px;
+}
+
+.login{
+    display: flex;
+	align-items: flex-start;    
+    width: 80%;
+    margin: auto;
+}
