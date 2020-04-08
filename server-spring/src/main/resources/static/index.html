@@ -1,62 +1,42 @@
 <!doctype html>
 <html lang="en" ng-app="EsportEvent" ng-controller="EsportController">
+
+
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
-
+<script src="script.js"></script>
 </head>
 
 <body>
-<div>
-  <p>Email: <input type="text" ng-model="email"></p>
-  <p>Password: <input type="text" ng-model="password"></p>
-  <button class="w3-btn w3-green w3-ripple" ng-click="register()"> Register </button>
-  
-  <p ng-bind="description"></p>
-  <p ng-bind="email"></p>
-  <p ng-bind="id"></p>
-  <p ng-bind="name"></p>
-  <p ng-bind="participantInfo"></p>
-  <p ng-bind="password"></p>
-  <p ng-bind="surname"></p>
 
+<div ng-hide="hidelogin">
+	<div class=login>
+	  <p>Email: 	<input type="text" ng-model="email"></p>
+	  <p>Password: 	<input type="text" ng-model="password"></p>
+	  
+	  <button ng-click="login()"> Login </button>
+	</div>
+	
+	<div class=register>
+	  <p>Email: 	<input type="text" ng-model="email"></p>
+	  <p>Password: 	<input type="text" ng-model="password"></p>
+	  <p>name: 		<input type="text" ng-model="name"></p>
+	  <p>surname: 	<input type="text" ng-model="surname"></p>
+	  
+	  <button ng-click="toAccount"> Register </button>
+	</div>
 </div>
 
-<script>
-var app = angular.module('EsportEvent', []);
-app.controller('EsportController', function($scope, $http) {
-			$scope.name = "";
-			$scope.surname = "";
-			$scope.email = "";
-			$scope.password = "";
-			$scope.id = "";
-			$scope.description = "";
-			$scope.participantInfo = "";
-			
 
-			$scope.register = function() {
-				var obj = {
-					name : $scope.name'
-					surname: $scope.surname,
-					email : $scope.email,
-					password : $scope.password,
-					id : $scope.id,
-					description : $scope.description,
-					participantInfo : $scope.participantInfo,
-				};
-				
-				$http.get('http://localhost:8080/register', obj, {headers : {'Content-Type' : 'application/json; charset=UTF-8'}, 'Accept' : 'application/json'}).then(
-						function onSuccess(data) {
-					window.alert(JSON.stringify(data.data));
-					$http.get('http://localhost:8080/accounts').then(
-							function(response) {
-								$scope.user = response.data;
-							});
-				}, function onError(err) {
-					// do something on error
-				});
-			};
+<div ng-hide="hideAcc">
+  De:<p ng-bind="description"></p>
+  Em:<p ng-bind="email"></p>
+  Id:<p ng-bind="id"></p>
+  Na:<p ng-bind="name"></p>
+  PaIn:<p ng-bind="participantInfo"></p>
+  Pass:<p ng-bind="password"></p>
+  Surname<p ng-bind="surname"></p>
+</div>
 
-		});
-</script>
 </body>
 </html>

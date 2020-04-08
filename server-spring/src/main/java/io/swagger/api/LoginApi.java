@@ -25,8 +25,8 @@ public interface LoginApi {
     @RequestMapping(value = "/login",
         produces = { "*/*" }, 
         consumes = { "*/*" },
-        method = RequestMethod.GET)
-    ResponseEntity<User> loginGet(
+        method = RequestMethod.POST)
+    ResponseEntity<User> loginPost(
     		@ApiParam(value = "Check if credentials are ok and return user ID and account" ,required=true )
     		@Valid @RequestBody User body
     		);

@@ -37,7 +37,7 @@ public class LoginApiController implements LoginApi {
     }
 
 	@Override
-	public ResponseEntity<User> loginGet(
+	public ResponseEntity<User> loginPost(
 		@ApiParam(value = "User object needed to be added into system." , required=true )
 		@Valid @RequestBody User body) 
 	{

@@ -51,7 +51,7 @@ public class RegisterApiController implements RegisterApi {
 			return new ResponseEntity<Long>(id, HttpStatus.OK);
         }
 
-        return new ResponseEntity<Long>(HttpStatus.NOT_IMPLEMENTED);
+        return new ResponseEntity<Long>(-1L ,HttpStatus.OK);
 	}
 
 }

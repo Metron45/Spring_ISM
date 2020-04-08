@@ -37,7 +37,7 @@ public interface AccountsApi {
         method = RequestMethod.GET)
     ResponseEntity<User> accountsUserIDGet(
     		@Min(1)@ApiParam(value = "The user ID.",required=true, allowableValues="") 
-    		@PathVariable("UserID") User body
+    		Long id
     		);
 
 

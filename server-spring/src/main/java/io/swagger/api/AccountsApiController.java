@@ -47,14 +47,14 @@ public class AccountsApiController implements AccountsApi {
 	@Override
 	public ResponseEntity<User> accountsUserIDGet(
     		@Min(1)@ApiParam(value = "The user ID.",required=true, allowableValues="") 
-    		@Valid @RequestBody User body
+    		 Long id
     		)
 	{
         String accept = request.getHeader("Accept");
         User user;
-        System.out.println("ID Received:" + body.getId());
-        if (accept != null && accept.contains("application/json") && body != null) {
-        		user = userService.findById(body.getId());
+        System.out.println("ID Received:" + id );
+        if (accept != null && accept.contains("application/json")) {
+        		user = userService.findById(id);
         		System.out.println("User found:" + user.toString());
                 return new ResponseEntity<User>(user, HttpStatus.OK);
         }
