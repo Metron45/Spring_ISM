@@ -22,6 +22,8 @@ import org.springframework.web.bind.annotation.CookieValue;
 
 import javax.validation.Valid;
 import javax.validation.constraints.*;
+
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2020-03-31T11:11:07.248176+02:00[Europe/Warsaw]")
@@ -52,6 +54,18 @@ public interface AccountsApi {
     		@Min(1)@ApiParam(value = "The user ID.",required=true, allowableValues="") 
     		@Valid @RequestBody User body
     		);
+    
+    //Endpoint for AspectJ statistics
+    @ApiOperation(value = "Receive user Login Times", nickname = "accountsUserTimeGet", notes = "", response = Object.class, tags={  })
+    @ApiResponses(value = { 
+        @ApiResponse(code = 200, message = "Returns a user login times", response = Object.class), })
+    @RequestMapping(value = "/accountsTime",
+        produces = { "*/*" }, 
+        method = RequestMethod.GET)
+    ResponseEntity<String> accountsUserTimeGet(
+    		@Min(1)@ApiParam(value = "The user ID.",required=true, allowableValues="") 
+    		Long id
+	);
 
 }
 

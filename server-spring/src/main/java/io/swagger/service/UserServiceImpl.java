@@ -28,8 +28,6 @@ public class UserServiceImpl implements UserService {
 		return null;
 	}
 
-
-
 	@Override
 	public User loginUser(User user) {
 		List<User> userList;

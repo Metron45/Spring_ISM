@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.swagger.annotations.*;
 import io.swagger.model.User;
 import io.swagger.service.UserService;
+import aspects.Storage;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -23,8 +24,10 @@ import javax.validation.constraints.*;
 import javax.validation.Valid;
 import javax.servlet.http.HttpServletRequest;
 import java.io.IOException;
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Map;
+
 @javax.annotation.Generated(value = "io.swagger.codegen.v3.generators.java.SpringCodegen", date = "2020-03-31T11:11:07.248176+02:00[Europe/Warsaw]")
 @Controller
 public class AccountsApiController implements AccountsApi {
@@ -75,6 +78,13 @@ public class AccountsApiController implements AccountsApi {
         }
 
         return new ResponseEntity<Object>(HttpStatus.NOT_IMPLEMENTED);
+	}
+
+	@Override
+	public ResponseEntity<String> accountsUserTimeGet(Long id) {
+		
+		LocalDateTime loginTime = Storage.getLoginTime().get(id.intValue());
+		return new ResponseEntity<String>(loginTime.toString(), HttpStatus.OK);
 	}
 
 }
