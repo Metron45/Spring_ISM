@@ -6,14 +6,13 @@ import java.util.List;
 
 import io.swagger.model.User;
 
+//class storing info about login times
 public final class Storage {
 	
-	private static List<User> loggedUsers;
-	private static List<LocalDateTime> loginTime;
-	
+	private static List<User> loggedUsers  = new ArrayList<User>();
+	private static List<LocalDateTime> loginTime = new ArrayList<LocalDateTime>();
+	 
 	private Storage () {
-		loggedUsers = new ArrayList<User>();
-		loginTime = new ArrayList<LocalDateTime>();
 	}
 	
 	public static List<User> getUser() {
@@ -22,10 +21,6 @@ public final class Storage {
 
 	public static void setUser(List<User> students) {
 		Storage.loggedUsers = students;
-//		System.out.println("User who are on the login list:");
-//		for( User user : loggedUsers) {
-//			System.out.println("User: "+user.getName()+" "+user.getSurname());
-//		}
 	}
 	
 	public static List<LocalDateTime> getLoginTime() {
@@ -34,9 +29,21 @@ public final class Storage {
 
 	public static void setLoginTime(List<LocalDateTime> times) {
 		Storage.loginTime = times;
-//		System.out.println("Times of login:");
-//		for( LocalDateTime user : loginTime) {
-//			System.out.println(user);
-//		}
+	}
+	
+	public static void addUser(User user) {
+		loggedUsers.add(user);
+	}
+	
+	public static int indexOfUser(User user) {
+		return loggedUsers.indexOf(user);
+	}
+	
+	public static void addTime(LocalDateTime time) {
+		loginTime.add(time);
+	}
+	
+	public static void setCurrentTime(int index) {
+		loginTime.set(index, LocalDateTime.now());
 	}
 }

@@ -33,39 +33,31 @@ import io.swagger.model.User;
 @Component
 public final class MyAspect {
 	
-	private static final List<User> loggedUsers = new ArrayList<User>();
-	private static final List<LocalDateTime> loginTime = new ArrayList<LocalDateTime>();
-	
-	//Aspects log the last login rime of each user
-	//Endpoint for times of login is under /accountsTime
-	
 	@AfterReturning(pointcut = "execution(* io.swagger.service.UserServiceImpl.addUser(..))",
 			returning = "retVal")
 	public Object doOtherThing(Object retVal) throws Throwable {
-		int index = loggedUsers.indexOf(retVal); 
+		System.out.println(retVal);
+		int index = Storage.indexOfUser((User) retVal); 
 		//despite using AfterReturnign Aspects do the function 2 times.
-
+		//this way we check if the user was already logged
 		if(index == -1) {
-			loggedUsers.add((User) retVal);
-			loginTime.add(LocalDateTime.now());
+			Storage.addUser((User) retVal);
+			Storage.addTime(LocalDateTime.now());
 		}
-		
-		Storage.setLoginTime(loginTime);
-		Storage.setUser(loggedUsers);
-		
 		return retVal;
-		
 	}
 	
 	@AfterReturning(pointcut = "execution(* io.swagger.service.UserServiceImpl.loginUser(..))",
 			returning = "retVal")
 	public Object doThing(Object retVal) throws Throwable {
-		int index = loggedUsers.indexOf(retVal);
-		loginTime.set(index, LocalDateTime.now());
-		
-		Storage.setLoginTime(loginTime);
-		Storage.setUser(loggedUsers);
-		
+		int index = Storage.indexOfUser((User) retVal); 
+		if(index == -1) {
+			Storage.addUser((User) retVal);
+			Storage.addTime(LocalDateTime.now());
+		}
+		else {
+			Storage.setCurrentTime(index);
+		}
 		return retVal;
 	}
 }
