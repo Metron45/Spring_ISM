@@ -1,0 +1,17 @@
+@base <http://localhost:8080/> . 
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+
+<register>
+    rdfs:name "Marek" ;
+    rdfs:surname "Chmielewski" ;
+    rdfs:email "Marek@mail.com" ;
+    rdfs:password "password" .
+	
+<login>
+    rdfs:email "Marek@mail.com" ;
+    rdfs:password "password" .

@@ -1,0 +1,30 @@
+#following is based on program designed on previous laboratories
+
+@prefix ex: <http://example.org#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix rel: <http://www.perceive.net/schemas/relationship/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+
+
+ex:Accounts rdf:type rdf:Class .
+ex:userId rdf:type rdf:Property ;
+        rdfs:domain ex:Accounts .
+ex:name rdf:type rdf:Property ;
+        rdfs:domain ex:Accounts .
+ex:surname rdf:type rdf:Property ;
+        rdfs:domain ex:Accounts .
+ex:email rdf:type rdf:Property ;
+        rdfs:domain ex:Accounts .
+	
+ex:Event rdf:type rdf:Class .
+ex:eventId rdf:type rdf:Property ;
+        rdfs:domain ex:Event .
+ex:eventName rdf:type rdf:Property ;
+        rdfs:domain ex:Event .
+ex:location rdf:type rdf:Property ;
+        rdfs:domain ex:Event .
+ex:participant rdf:type rdf:Property ;
+        rdfs:domain ex:Event ;
+		rdfs:range ex:Accounts .
