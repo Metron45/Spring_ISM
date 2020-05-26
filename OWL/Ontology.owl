@@ -1,0 +1,158 @@
+@prefix : <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4> .
+
+<http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants
+:participants rdf:type owl:ObjectProperty ;
+              rdfs:domain :Event ;
+              rdfs:range :User .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#date
+:date rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Event ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Event ,
+                         :User ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email
+:email rdf:type owl:DatatypeProperty ;
+       owl:equivalentProperty :mailingList ;
+       rdfs:domain :User ;
+       rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#eventType
+:eventType rdf:type owl:DatatypeProperty ;
+           rdfs:domain :Event ;
+           rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Event ,
+                :User ;
+    rdfs:range xsd:long .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#image
+:image rdf:type owl:DatatypeProperty ;
+       rdfs:domain :Event ,
+                   :User .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#location
+:location rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Event ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList
+:mailingList rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Event .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name
+:name rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Event ,
+                  :User ;
+      rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo
+:participantInfo rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :User ;
+                 rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password
+:password rdf:type owl:DatatypeProperty ;
+          rdfs:domain :User ;
+          rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname
+:surname rdf:type owl:DatatypeProperty ;
+         rdfs:domain :User ;
+         rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event
+:Event rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User
+:User rdf:type owl:Class .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#event1
+:event1 rdf:type owl:NamedIndividual ,
+                 :Event ,
+                 :User ;
+        :participants :user1 ,
+                      :user2 ;
+        :date "13.03.2020" ;
+        :description "Bieg na 100 metrów we Wrocławiu." ;
+        :eventType "bieg" ;
+        :id 1 ;
+        :location "3 Maja 16" ;
+        :mailingList "226043@pwr.edu.pl" ,
+                     "226043@student.pwr.edu.pl" ;
+        :name "Bieg 2020"^^xsd:string .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user1
+:user1 rdf:type owl:NamedIndividual ,
+                :Event ,
+                :User ;
+       :description "Fan Biegania." ;
+       :email "226043@student.pwr.edu.pl" ;
+       :id 1 ;
+       :name "Marek" ;
+       :participantInfo "Zdrowy. 25 lat." ;
+       :password "password" ;
+       :surname "Chmielewski" .
+
+
+###  http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user2
+:user2 rdf:type owl:NamedIndividual ,
+                :Event ,
+                :User ;
+       :description "Lubi Pływać. Mistrz biegu z 2017 roku." ;
+       :email "226043@student.pwr.edu.pl" ;
+       :id 2 ;
+       :name "Marcin" ;
+       :participantInfo "Złamane kolano. Niepełnosprawny." ;
+       :password "password23" ;
+       :surname "Chmielewski" .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi

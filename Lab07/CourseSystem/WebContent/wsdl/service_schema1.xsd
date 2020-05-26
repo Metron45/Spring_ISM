@@ -1,0 +1,38 @@
+<xs:schema xmlns:tns="http://service/" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://service/" version="1.0">
+
+  <xs:element name="getInfo" type="tns:getInfo"/>
+
+  <xs:element name="getInfoResponse" type="tns:getInfoResponse"/>
+
+  <xs:element name="setInfo" type="tns:setInfo"/>
+
+  <xs:element name="setInfoResponse" type="tns:setInfoResponse"/>
+
+  <xs:complexType name="getInfo">
+    <xs:sequence/>
+  </xs:complexType>
+
+  <xs:complexType name="getInfoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:course"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="course">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="message" type="xs:string"/>
+      <xs:element name="value" type="xs:int"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="setInfo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="info" type="tns:course"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="setInfoResponse">
+    <xs:sequence/>
+  </xs:complexType>
+
+</xs:schema>

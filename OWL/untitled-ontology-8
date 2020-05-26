@@ -1,0 +1,225 @@
+[ {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#date",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentProperty" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#event1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User" ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#date" : [ {
+    "@value" : "13.03.2020"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description" : [ {
+    "@value" : "Bieg na 100 metrów we Wrocławiu."
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email" : [ {
+    "@value" : "226043@pwr.edu.pl"
+  }, {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#eventType" : [ {
+    "@value" : "bieg"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#location" : [ {
+    "@value" : "3 Maja 16"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList" : [ {
+    "@value" : "226043@pwr.edu.pl"
+  }, {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name" : [ {
+    "@value" : "Bieg 2020"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user1"
+  }, {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user2"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#eventType",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#long"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#image",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#location",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  }, {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User" ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description" : [ {
+    "@value" : "Fan Biegania."
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email" : [ {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList" : [ {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name" : [ {
+    "@value" : "Marek"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo" : [ {
+    "@value" : "Zdrowy. 25 lat."
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password" : [ {
+    "@value" : "password"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname" : [ {
+    "@value" : "Chmielewski"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event", "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User" ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description" : [ {
+    "@value" : "Lubi Pływać. Mistrz biegu z 2017 roku."
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email" : [ {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList" : [ {
+    "@value" : "226043@student.pwr.edu.pl"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name" : [ {
+    "@value" : "Marcin"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo" : [ {
+    "@value" : "Złamane kolano. Niepełnosprawny."
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password" : [ {
+    "@value" : "password23"
+  } ],
+  "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname" : [ {
+    "@value" : "Chmielewski"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+} ]

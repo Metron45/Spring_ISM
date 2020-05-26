@@ -1,0 +1,202 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-6>
+
+
+Datatype: xsd:integer
+
+    
+Datatype: xsd:long
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+    
+    Range: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#date>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    EquivalentTo: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#eventType>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:long
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#image>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#location>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+    
+    EquivalentTo: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname>
+
+    Domain: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Range: 
+        xsd:string
+    
+    
+Class: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>
+
+    
+Class: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+
+    
+Individual: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#event1>
+
+    Types: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Facts:  
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants>  <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user1>,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participants>  <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user2>,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#date>  "13.03.2020"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description>  "Bieg na 100 metrów we Wrocławiu."^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>  "226043@pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#eventType>  "bieg"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id>  1,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#location>  "3 Maja 16"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>  "226043@pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name>  "Bieg 2020"^^xsd:string
+    
+    
+Individual: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user1>
+
+    Types: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Facts:  
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description>  "Fan Biegania."^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id>  1,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name>  "Marek"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo>  "Zdrowy. 25 lat."^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password>  "password"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname>  "Chmielewski"^^xsd:string
+    
+    
+Individual: <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#user2>
+
+    Types: 
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#Event>,
+        <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#User>
+    
+    Facts:  
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#description>  "Lubi Pływać. Mistrz biegu z 2017 roku."^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#email>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#id>  2,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#mailingList>  "226043@student.pwr.edu.pl"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#name>  "Marcin"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#participantInfo>  "Złamane kolano. Niepełnosprawny."^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#password>  "password23"^^xsd:string,
+     <http://www.semanticweb.org/metron/ontologies/2020/4/untitled-ontology-4#surname>  "Chmielewski"^^xsd:string
+    
+    

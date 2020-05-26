@@ -49,14 +49,15 @@
 
 <div ng-hide="hideAcc">
 <h2>Account Information:</h2>
-<table>
-	<tr><th>AccountId:</th> 		<th>{{id}}</th></tr>
-	<tr><th>Email:</th>				<th>{{email}}</th></tr>
-	<tr><th>Password:</th>			<th>{{password}}</th></tr>
-	<tr><th>Name:</th>				<th>{{name}}</th></tr>
-	<tr><th>Surname:</th>			<th>{{surname}}</th></tr>
-	<tr><th>Description:</th>		<th>{{description}}</th></tr>
-	<tr><th>Participant Info:</th>	<th>{{participantInfo}}</th></tr>
+<table vocab="http://Schema.org/" typeof="Person" >
+
+	<tr><th>AccountId:</th> 		<th property="identifier">{{id}}					</th></tr>
+	<tr><th>Email:</th>				<th property="email">{{email}}				</th></tr>
+	<tr><th>Password:</th>			<th property="password" vocab="http://localhost:8080/rdf4j-server/repositories/ESE_OWL" typeof="User">{{password}}									</th></tr>
+	<tr><th>Name:</th>				<th property="givenName">{{name}}			</th></tr>
+	<tr><th>Surname:</th>			<th property="familyName">{{surname}}		</th></tr>
+	<tr><th>Description:</th>		<th property="description">{{description}}	</th></tr>
+	<tr><th>Participant Info:</th>	<th property="participantInfo" vocab="http://localhost:8080/rdf4j-server/repositories/ESE_OWL" typeof="User">{{participantInfo}}	</th></tr>
 </table>
 Desc. and PartInf. will be fillable in edit profile functionality. <br>
 Password won't be displayed after system security, is currently displayed for debug purposes.

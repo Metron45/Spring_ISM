@@ -3211,3 +3211,745 @@ value: true
 28-Apr-2020 18:23:36.164 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
 28-Apr-2020 18:23:36.164 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
 28-Apr-2020 18:23:36.165 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:44:53.336 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.34
+28-Apr-2020 18:44:53.338 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 12:02:52 UTC
+28-Apr-2020 18:44:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.34.0
+28-Apr-2020 18:44:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Apr-2020 18:44:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Apr-2020 18:44:53.339 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Apr-2020 18:44:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+28-Apr-2020 18:44:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+28-Apr-2020 18:44:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Apr-2020 18:44:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Metron\Downloads\apache-tomcat-9.0.34
+28-Apr-2020 18:44:53.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Metron\Downloads\apache-tomcat-9.0.34
+28-Apr-2020 18:44:53.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Metron\Downloads\apache-tomcat-9.0.34\conf\logging.properties
+28-Apr-2020 18:44:53.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Apr-2020 18:44:53.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Apr-2020 18:44:53.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Apr-2020 18:44:53.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Apr-2020 18:44:53.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Metron\Downloads\apache-tomcat-9.0.34
+28-Apr-2020 18:44:53.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Metron\Downloads\apache-tomcat-9.0.34
+28-Apr-2020 18:44:53.345 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Metron\Downloads\apache-tomcat-9.0.34\temp
+28-Apr-2020 18:44:53.345 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Apr-2020 18:44:53.345 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Apr-2020 18:44:53.345 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Apr-2020 18:44:53.349 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Apr-2020 18:44:53.745 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Apr-2020 18:44:53.904 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [716] milliseconds
+28-Apr-2020 18:44:53.929 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Apr-2020 18:44:53.930 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.34]
+28-Apr-2020 18:44:53.947 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\rdf4j-server.war]
+28-Apr-2020 18:44:57.089 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Apr-2020 18:44:58.726 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\rdf4j-server.war] has finished in [4,779] ms
+28-Apr-2020 18:44:58.730 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\rdf4j-workbench.war]
+28-Apr-2020 18:45:00.423 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Apr-2020 18:45:00.439 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\rdf4j-workbench.war] has finished in [1,709] ms
+28-Apr-2020 18:45:00.440 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\docs]
+28-Apr-2020 18:45:00.456 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\docs] has finished in [17] ms
+28-Apr-2020 18:45:00.457 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\examples]
+28-Apr-2020 18:45:00.643 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\examples] has finished in [186] ms
+28-Apr-2020 18:45:00.644 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\host-manager]
+28-Apr-2020 18:45:00.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\host-manager] has finished in [22] ms
+28-Apr-2020 18:45:00.667 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\manager]
+28-Apr-2020 18:45:00.688 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\manager] has finished in [21] ms
+28-Apr-2020 18:45:00.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\ROOT]
+28-Apr-2020 18:45:00.701 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Downloads\apache-tomcat-9.0.34\webapps\ROOT] has finished in [12] ms
+28-Apr-2020 18:45:00.704 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Apr-2020 18:45:00.710 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [6,806] milliseconds
+28-Apr-2020 18:45:00.804 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:00.880 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:00.881 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:45:00.881 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:01.747 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.sail.helpers.DirectoryLockManager.removeInvalidLock Removing invalid lock 10316@Metronomicon
+28-Apr-2020 18:45:01.937 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:01.937 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:45:01.938 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:08.653 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:08.653 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:45:08.654 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:08.705 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:08.705 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:45:08.706 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:11.150 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:11.150 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:11.151 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:11.214 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:11.214 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:11.215 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:11.454 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:11.454 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:11.455 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:12.846 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:12.846 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:12.847 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:12.895 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:12.896 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:12.896 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:13.523 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:13.523 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:13.524 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:13.556 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:13.557 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:13.558 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:13.578 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:13.578 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:13.579 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:35.565 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:35.566 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:35.567 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:35.570 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0ASELECT+%28COUNT%28%3Fp%29+AS+%3FNumberOfParticipants%29%0D%0AWHERE+%7B%0D%0A++%09%3Fevent+ex%3AeventName+%22konkursP%C5%82ywacki%22+.%0D%0A%09%3Fevent+ex%3Aparticipant+%3Fp+.%0D%0A%7D
+28-Apr-2020 18:45:35.571 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT (COUNT(?p) AS ?NumberOfParticipants)
+WHERE {
+  	?event ex:eventName "konkursPływacki" .
+	?event ex:participant ?p .
+}
+--
+28-Apr-2020 18:45:35.571 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: ref
+value: text
+28-Apr-2020 18:45:35.572 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: text
+--
+28-Apr-2020 18:45:35.572 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:45:35.572 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:45:35.573 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:45:35.573 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:45:35.574 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:45:35.574 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:45:35.579 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:45:35.625 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.askExists PREFIX : <https://openrdf.org/workbench/>
+ASK { [] :userName "" ; :queryName "NumberOfParticipants" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> . }
+28-Apr-2020 18:45:35.821 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.updateQueryRepository SPARQL/Update of Query Storage:
+--
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX : <https://openrdf.org/workbench/>
+INSERT DATA { <urn:uuid:14180a47-3b24-4de0-8023-d12d160ddbe8> :userName "" ; :queryName "NumberOfParticipants" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> ; :shared "true"^^xsd:boolean ; :queryLanguage "SPARQL" ; :query '''PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT (COUNT(?p) AS ?NumberOfParticipants)
+WHERE {
+  	?event ex:eventName "konkursPływacki" .
+	?event ex:participant ?p .
+}''' ; :infer "true"^^xsd:boolean ; :rowsPerPage "100"^^xsd:unsignedByte . }
+--
+28-Apr-2020 18:45:39.297 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:39.297 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:39.298 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:39.327 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:39.327 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:39.327 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:39.342 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:39.343 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:39.343 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:43.133 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:43.134 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:43.135 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:43.136 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:45:43.211 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:43.212 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:43.213 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:44.759 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:44.759 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:44.760 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:44.788 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:44.788 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:44.789 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:45:44.809 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:45:44.809 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:45:44.809 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:14.870 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:14.870 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:14.871 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:14.872 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0ASELECT+%3Fx%0D%0AWHERE+%7B%0D%0A++%09%3Fx+ex%3Asurname+%22Chmielewski%22+.%0D%0A%7D
+28-Apr-2020 18:46:14.872 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:surname "Chmielewski" .
+}
+--
+28-Apr-2020 18:46:14.873 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: ref
+value: text
+28-Apr-2020 18:46:14.873 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: text
+--
+28-Apr-2020 18:46:14.874 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:46:14.874 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:46:14.874 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:46:14.875 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:46:14.875 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:46:14.875 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:46:14.876 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:46:14.880 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.askExists PREFIX : <https://openrdf.org/workbench/>
+ASK { [] :userName "" ; :queryName "Surname" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> . }
+28-Apr-2020 18:46:14.881 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.updateQueryRepository SPARQL/Update of Query Storage:
+--
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX : <https://openrdf.org/workbench/>
+INSERT DATA { <urn:uuid:2cdb8f32-1b2a-4f5b-b5ad-a2723447855f> :userName "" ; :queryName "Surname" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> ; :shared "true"^^xsd:boolean ; :queryLanguage "SPARQL" ; :query '''PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:surname "Chmielewski" .
+}''' ; :infer "true"^^xsd:boolean ; :rowsPerPage "100"^^xsd:unsignedByte . }
+--
+28-Apr-2020 18:46:16.897 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:16.897 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:16.898 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:16.899 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fx%0AWHERE+%7B%0A++%09%3Fx+ex%3Asurname+%22Chmielewski%22+.%0A%7D
+28-Apr-2020 18:46:16.900 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:surname "Chmielewski" .
+}
+--
+28-Apr-2020 18:46:16.901 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:46:16.901 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:46:16.901 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:46:16.901 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:46:16.902 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:46:16.902 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:46:17.157 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:17.158 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:17.158 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:18.734 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:18.734 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:18.735 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:18.766 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:18.766 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:18.769 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:18.789 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:18.790 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:18.791 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:47.628 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:47.629 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:47.629 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:47.630 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0ASELECT+%3Fx%0D%0AWHERE+%7B%0D%0A++%09%3Fx+ex%3Aparticipant+ex%3Auser15+.%0D%0A%7D
+28-Apr-2020 18:46:47.631 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:participant ex:user15 .
+}
+--
+28-Apr-2020 18:46:47.631 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: ref
+value: text
+28-Apr-2020 18:46:47.631 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: text
+--
+28-Apr-2020 18:46:47.632 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:46:47.632 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:46:47.633 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:46:47.633 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:46:47.634 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:46:47.634 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:46:47.634 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:46:47.638 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.askExists PREFIX : <https://openrdf.org/workbench/>
+ASK { [] :userName "" ; :queryName "UserEvents" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> . }
+28-Apr-2020 18:46:47.640 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.updateQueryRepository SPARQL/Update of Query Storage:
+--
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX : <https://openrdf.org/workbench/>
+INSERT DATA { <urn:uuid:f8ecbc35-81d2-4b8c-b265-aab706450831> :userName "" ; :queryName "UserEvents" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> ; :shared "true"^^xsd:boolean ; :queryLanguage "SPARQL" ; :query '''PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:participant ex:user15 .
+}''' ; :infer "true"^^xsd:boolean ; :rowsPerPage "100"^^xsd:unsignedByte . }
+--
+28-Apr-2020 18:46:49.091 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:49.092 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:49.093 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:49.093 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fx%0AWHERE+%7B%0A++%09%3Fx+ex%3Aparticipant+ex%3Auser15+.%0A%7D
+28-Apr-2020 18:46:49.094 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?x ex:participant ex:user15 .
+}
+--
+28-Apr-2020 18:46:49.094 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:46:49.095 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:46:49.095 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:46:49.095 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:46:49.096 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:46:49.096 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:46:49.143 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:49.144 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:49.145 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:49.914 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:49.915 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:49.917 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:49.955 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:49.955 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:49.956 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:46:49.967 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:46:49.967 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:46:49.968 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:35.021 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:35.022 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:35.023 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:35.023 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fx%0AWHERE+%7B%0A++%09%3Fevent+ex%3Alocation+%22Wroc%C5%82aw+Centrum%22+.%0A%09%3Fevent+ex%3AeventName+%3Fp+.%0A%7D
+28-Apr-2020 18:47:35.024 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?x
+WHERE {
+  	?event ex:location "Wrocław Centrum" .
+	?event ex:eventName ?p .
+}
+--
+28-Apr-2020 18:47:35.024 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:47:35.025 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:47:35.025 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:47:35.025 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:47:35.026 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:47:35.026 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:47:35.090 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:35.090 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:35.091 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:37.725 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:37.725 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:37.726 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:37.756 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:37.756 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:37.758 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:37.775 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:37.775 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:37.775 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:43.784 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:43.784 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:43.786 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:43.787 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fp%0AWHERE+%7B%0A++%09%3Fevent+ex%3Alocation+%22Wroc%C5%82aw+Centrum%22+.%0A%09%3Fevent+ex%3AeventName+%3Fp+.%0A%7D
+28-Apr-2020 18:47:43.787 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?p
+WHERE {
+  	?event ex:location "Wrocław Centrum" .
+	?event ex:eventName ?p .
+}
+--
+28-Apr-2020 18:47:43.788 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:47:43.788 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:47:43.789 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:47:43.789 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:47:43.789 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:47:43.790 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:47:43.843 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:43.844 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:43.844 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:45.718 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:45.718 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:45.719 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:45.752 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:45.752 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:45.753 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:45.779 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:45.780 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:45.780 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:57.476 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:57.476 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:57.477 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:57.478 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0ASELECT+%3Fp%0D%0AWHERE+%7B%0D%0A++%09%3Fevent+ex%3Alocation+%22Wroc%C5%82aw+Centrum%22+.%0D%0A%09%3Fevent+ex%3AeventName+%3Fp+.%0D%0A%7D
+28-Apr-2020 18:47:57.478 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?p
+WHERE {
+  	?event ex:location "Wrocław Centrum" .
+	?event ex:eventName ?p .
+}
+--
+28-Apr-2020 18:47:57.479 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: ref
+value: text
+28-Apr-2020 18:47:57.479 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: text
+--
+28-Apr-2020 18:47:57.479 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:47:57.480 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:47:57.480 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:47:57.480 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:47:57.481 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:47:57.481 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:47:57.481 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:47:57.485 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.askExists PREFIX : <https://openrdf.org/workbench/>
+ASK { [] :userName "" ; :queryName "EventsInLocation" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> . }
+28-Apr-2020 18:47:57.488 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.updateQueryRepository SPARQL/Update of Query Storage:
+--
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX : <https://openrdf.org/workbench/>
+INSERT DATA { <urn:uuid:a53fe0b9-d85d-4d4e-a5d0-70cf2eb2ae0e> :userName "" ; :queryName "EventsInLocation" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> ; :shared "true"^^xsd:boolean ; :queryLanguage "SPARQL" ; :query '''PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?p
+WHERE {
+  	?event ex:location "Wrocław Centrum" .
+	?event ex:eventName ?p .
+}''' ; :infer "true"^^xsd:boolean ; :rowsPerPage "100"^^xsd:unsignedByte . }
+--
+28-Apr-2020 18:47:58.871 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:58.872 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:58.873 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:47:58.873 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:47:58.909 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:47:58.910 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:47:58.910 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:07.956 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:07.957 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:07.958 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:07.992 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:07.992 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:07.993 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:08.004 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:08.004 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:08.005 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:27.218 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:27.219 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:27.220 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:27.220 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fp%0AWHERE+%7B%0A++%09%3Fevent+ex%3AeventName+%3FeventName+.%0A%7D
+28-Apr-2020 18:48:27.221 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?p
+WHERE {
+  	?event ex:eventName ?eventName .
+}
+--
+28-Apr-2020 18:48:27.221 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:48:27.222 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:48:27.222 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:48:27.222 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:48:27.223 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:48:27.223 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:48:27.264 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:27.264 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:27.265 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:28.350 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:28.350 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:28.351 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:28.396 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:28.397 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:28.398 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:28.409 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:28.409 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:28.410 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:33.311 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:33.311 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:33.312 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:33.313 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0ASELECT+%3Fevent%0AWHERE+%7B%0A++%09%3Fevent+ex%3AeventName+%3FeventName+.%0A%7D
+28-Apr-2020 18:48:33.313 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?event
+WHERE {
+  	?event ex:eventName ?eventName .
+}
+--
+28-Apr-2020 18:48:33.314 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:48:33.314 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:48:33.315 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:48:33.315 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:48:33.316 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:48:33.316 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:48:33.359 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:33.360 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:33.360 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:34.261 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:34.261 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:34.262 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:34.290 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:34.290 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:34.291 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:34.309 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:34.309 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:34.310 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:54.452 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:48:54.452 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:48:54.453 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:48:54.454 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: query
+value: PREFIX+ex%3A+%3Chttp%3A%2F%2Fexample.org%23%3E%0D%0APREFIX+rdf%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0D%0ASELECT+%3Fevent%0D%0AWHERE+%7B%0D%0A++%09%3Fevent+ex%3AeventName+%3FeventName+.%0D%0A%7D
+28-Apr-2020 18:48:54.454 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?event
+WHERE {
+  	?event ex:eventName ?eventName .
+}
+--
+28-Apr-2020 18:48:54.455 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: ref
+value: text
+28-Apr-2020 18:48:54.455 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: text
+--
+28-Apr-2020 18:48:54.455 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: limit_query
+value: 100
+28-Apr-2020 18:48:54.456 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: 100
+--
+28-Apr-2020 18:48:54.456 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: queryLn
+value: SPARQL
+28-Apr-2020 18:48:54.456 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: SPARQL
+--
+28-Apr-2020 18:48:54.457 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: infer
+value: true
+28-Apr-2020 18:48:54.457 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: true
+--
+28-Apr-2020 18:48:54.458 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:48:54.461 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.askExists PREFIX : <https://openrdf.org/workbench/>
+ASK { [] :userName "" ; :queryName "AllEvents" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> . }
+28-Apr-2020 18:48:54.463 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.util.QueryStorage.updateQueryRepository SPARQL/Update of Query Storage:
+--
+PREFIX xsd:<http://www.w3.org/2001/XMLSchema#>
+PREFIX : <https://openrdf.org/workbench/>
+INSERT DATA { <urn:uuid:7ec3542b-3fe6-4497-b750-e817fccebc62> :userName "" ; :queryName "AllEvents" ; :repository <http://localhost:8080/rdf4j-server/repositories/ese> ; :shared "true"^^xsd:boolean ; :queryLanguage "SPARQL" ; :query '''PREFIX ex: <http://example.org#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+SELECT ?event
+WHERE {
+  	?event ex:eventName ?eventName .
+}''' ; :infer "true"^^xsd:boolean ; :rowsPerPage "100"^^xsd:unsignedByte . }
+--
+28-Apr-2020 18:49:07.586 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:49:07.586 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:49:07.587 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:49:15.208 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:49:15.209 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:49:15.210 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:49:15.210 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:49:15.249 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:49:15.250 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:49:15.252 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:51:52.394 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.34
+28-Apr-2020 18:51:52.395 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Apr 3 2020 12:02:52 UTC
+28-Apr-2020 18:51:52.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.34.0
+28-Apr-2020 18:51:52.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+28-Apr-2020 18:51:52.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+28-Apr-2020 18:51:52.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Apr-2020 18:51:52.396 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_241\jre
+28-Apr-2020 18:51:52.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_241-b07
+28-Apr-2020 18:51:52.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Apr-2020 18:51:52.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34
+28-Apr-2020 18:51:52.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34
+28-Apr-2020 18:51:52.397 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\conf\logging.properties
+28-Apr-2020 18:51:52.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Apr-2020 18:51:52.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Apr-2020 18:51:52.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Apr-2020 18:51:52.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Apr-2020 18:51:52.398 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34
+28-Apr-2020 18:51:52.400 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34
+28-Apr-2020 18:51:52.401 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\temp
+28-Apr-2020 18:51:52.401 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+28-Apr-2020 18:51:52.401 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+28-Apr-2020 18:51:52.402 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+28-Apr-2020 18:51:52.405 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+28-Apr-2020 18:51:52.608 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Apr-2020 18:51:52.749 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [500] milliseconds
+28-Apr-2020 18:51:52.769 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Apr-2020 18:51:52.769 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.34]
+28-Apr-2020 18:51:52.785 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\rdf4j-server.war]
+28-Apr-2020 18:51:56.243 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Apr-2020 18:51:58.453 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\rdf4j-server.war] has finished in [5,667] ms
+28-Apr-2020 18:51:58.454 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\rdf4j-workbench.war]
+28-Apr-2020 18:52:00.365 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Apr-2020 18:52:00.383 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\rdf4j-workbench.war] has finished in [1,929] ms
+28-Apr-2020 18:52:00.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\docs]
+28-Apr-2020 18:52:00.398 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\docs] has finished in [15] ms
+28-Apr-2020 18:52:00.399 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\examples]
+28-Apr-2020 18:52:00.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\examples] has finished in [198] ms
+28-Apr-2020 18:52:00.597 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\host-manager]
+28-Apr-2020 18:52:00.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\host-manager] has finished in [28] ms
+28-Apr-2020 18:52:00.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\manager]
+28-Apr-2020 18:52:00.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\manager] has finished in [21] ms
+28-Apr-2020 18:52:00.646 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\ROOT]
+28-Apr-2020 18:52:00.663 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\Metron\Documents\GitHub\Spring_ISM\RDF\apache-tomcat-9.0.34\webapps\ROOT] has finished in [17] ms
+28-Apr-2020 18:52:00.667 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Apr-2020 18:52:00.676 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [7,926] milliseconds
+28-Apr-2020 18:52:53.586 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:52:53.675 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:52:53.675 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:52:54.608 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.sail.helpers.DirectoryLockManager.removeInvalidLock Removing invalid lock 16144@Metronomicon
+28-Apr-2020 18:52:54.814 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:52:54.815 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:52:54.816 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:52:58.795 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:52:58.796 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:52:58.797 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:52:59.065 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:52:59.065 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:52:59.067 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:01.379 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:01.380 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:01.381 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:01.522 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:01.522 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:01.523 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:10.483 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:10.484 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:10.485 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:10.486 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie name: Accept
+value: application%2Frdf%2Bxml
+28-Apr-2020 18:53:10.486 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.util.CookieHandler.addCookie un-encoded value: application/rdf+xml
+--
+28-Apr-2020 18:53:17.403 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:17.404 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:17.405 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:17.406 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:53:17.783 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:17.784 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:17.785 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:24.125 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:24.126 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:24.127 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:24.177 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:24.177 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:24.178 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:34.775 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:34.775 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:34.776 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:34.808 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:34.809 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:34.810 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:34.834 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:34.835 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:34.836 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:38.294 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:38.294 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:38.295 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:38.366 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:38.366 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:38.367 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:39.434 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:39.434 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:39.435 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:39.724 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:39.724 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:39.727 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:40.363 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:40.363 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:40.364 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:40.411 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:40.411 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:40.412 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:40.801 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:40.801 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:40.802 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:40.854 WARNING [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:40.855 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:40.856 INFO [http-nio-8080-exec-8] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:45.088 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:45.088 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:53:45.089 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:45.126 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:45.127 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:53:45.128 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:47.087 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:47.087 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:47.088 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:47.120 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:47.121 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:47.123 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:52.335 WARNING [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:52.335 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:53:52.336 INFO [http-nio-8080-exec-4] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:52.373 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:52.376 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: NONE
+28-Apr-2020 18:53:52.377 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:54.143 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:54.143 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:54.144 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:53:54.175 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:53:54.176 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:53:54.177 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:54:13.611 WARNING [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:54:13.611 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:54:13.613 INFO [http-nio-8080-exec-7] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:54:13.655 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:54:13.655 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:54:13.656 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:09.090 WARNING [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:09.091 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:09.092 INFO [http-nio-8080-exec-9] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:09.148 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:09.149 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:09.150 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:10.328 WARNING [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:10.328 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:10.329 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:10.330 INFO [http-nio-8080-exec-1] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:55:10.368 WARNING [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:10.369 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:10.370 INFO [http-nio-8080-exec-5] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:22.039 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:22.039 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:22.040 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:22.073 WARNING [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:22.073 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:22.074 INFO [http-nio-8080-exec-2] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:22.089 WARNING [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:22.091 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:22.092 INFO [http-nio-8080-exec-10] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:22.932 WARNING [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:22.933 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:22.934 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
+28-Apr-2020 18:55:22.934 INFO [http-nio-8080-exec-3] org.eclipse.rdf4j.workbench.util.QueryStorage.checkAccess repository: http://localhost:8080/rdf4j-server/repositories/ese
+28-Apr-2020 18:55:22.971 WARNING [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.ServerValidator.checkServerPrefixes server URL null does not have a prefix file: http: https:
+28-Apr-2020 18:55:22.972 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.service Servicing repository: ese
+28-Apr-2020 18:55:22.972 INFO [http-nio-8080-exec-6] org.eclipse.rdf4j.workbench.proxy.WorkbenchServlet.setCredentials RemoteRepositoryManager URL: http://localhost:8080/rdf4j-server
